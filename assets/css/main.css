@@ -242,6 +242,27 @@ h6 {
   color: var(--heading-color);
 }
 
+.container ul li, ol li {
+	padding: 5px;
+	text-align: justify;
+}
+
+.container ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container ul li {
+  padding-left: 1em;
+  text-indent: -10px;
+}
+
+.container ul li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

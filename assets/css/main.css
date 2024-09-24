@@ -106,6 +106,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
+center div {
+padding-bottom:10px;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -272,6 +275,9 @@ h6 {
     padding: 0;
   }
 
+  .navmenu span.bi-envelope {
+	color:var(--accent-color)
+  }
   .navmenu ul {
     margin: 0;
     padding: 0;

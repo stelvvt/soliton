@@ -325,6 +325,11 @@ padding-bottom:10px;
     background-color: var(--nav-hover-color);
   }
 
+  .navmenu .download {
+    color: var(--contrast-color);
+    background-color: var(--nav-hover-color);
+  }
+
   .navmenu .dropdown ul {
     margin: 0;
     padding: 0;

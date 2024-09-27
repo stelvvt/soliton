@@ -318,9 +318,9 @@ padding-bottom:10px;
     transition: 0.3s;
   }
 
-  .navmenu li:hover>a,
-  .navmenu .active,
-  .navmenu .active:focus {
+  .navmenu li:hover>a:not(.nofocus),
+  .navmenu .active:not(.nofocus),
+  .navmenu .active:focus:not(.nofocus) {
     color: var(--contrast-color);
     background-color: var(--nav-hover-color);
   }
